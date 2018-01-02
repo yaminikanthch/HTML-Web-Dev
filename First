@@ -1,0 +1,118 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>My First Page</title>
+ </head>
+ <body background="">
+ 	<h1>What is Lorem Ipsum?</h1>
+ 	<!-- <H2>My Header2 of the page</H2> -->
+ 	<!-- <H3>My Header3 of the page</H3> -->
+ 	<!-- <h4>My Header4 of the page</h4> -->
+ 	<!-- <h5>My Header5 of the page</h5> -->
+ 	<!-- <h6>My Header6 of the page</h6> -->
+
+<!-- FORM -->
+<h3> The Form Starts Here...</h3>
+<form>
+<!-- textbox -->
+<div>
+<label for="username">Username:</label>
+<input type="email" name="username" required>
+</div>
+<!-- password -->
+<div>
+<label for="password">Password:</label>
+<input type="password" name="password" required>
+</div>
+<!-- radio buttons -->
+<div>
+<label for="gender">Gender:</label>
+<input type="radio" name="gender" value="m">Male</input>
+<input type="radio" name="gender" value="f">Female</input>
+<input type="radio" name="gender" value="o">Other</input>
+</div>
+<!-- selection (dndiaropdown) -->
+<div>
+<label for="country">Country: </label>
+<select name="country">
+	<option>India</option>
+	<option>United States</option>
+	<option>Philippines</option>
+	<option>Australia</option>
+	<option>Brazil</option>
+</select>
+</div>
+<!-- checkbox -->
+<div>
+<input type="checkbox" name="agreed" required>I agree</input>
+</div>
+
+<!-- submit -->
+<button>Submit</button>
+</form>
+
+	<p>Lorem Ipsum is <strong>simply dummy</strong> text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like <em>Aldus PageMaker</em> including versions of Lorem <a href="http://www.google.com">Ipsum.</a></p>
+
+<a href="http://www.rediff.com"><img src="smiley.jpg"></a>
+
+<!-- links -->
+<p>
+<a href="http://www.google.com">Go here to Google</a>
+</p>
+<a href=> </a>
+
+<!-- <TAGs, Param="value"> INside TAG </TAGEND> -->
+
+<!-- tables -->
+<!-- table rows and each table row has a table data -->
+<table border="1">
+	<tr>
+		<th>header1</th>
+		<th>header2</th>
+		<th>header3</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td>red</td>
+		<td>blue</td>
+		<td>green</td>
+	</tr>
+	<tr>
+		<td>Swift</td>
+		<td>Honda City</td>
+		<td>Baleno</td>
+	</tr>
+</table>
+
+<ul>
+	<li>Red</li>
+	<li>Blue</li>
+	<li>Green</li>
+	<li>Yellow</li>
+
+</ul>
+
+<ol>
+	
+	<li>Red</li>
+	<li>Blue</li>
+	<ol>
+		<li>Sky</li>
+		<li>Two</li>
+		<li>Three</li>
+	</ol>
+	<li>Green</li>
+	<li>Yellow</li>
+</ol>
+
+
+
+
+
+
+ </body>
+ </html>
